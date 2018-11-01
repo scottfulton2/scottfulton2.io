@@ -25,10 +25,6 @@ header{
 }
 .navigation a {
   color: #000000;
-  border-left-color: #eeeeee;
-  border-left-style: solid;
-  border-left-width: 1px;
-
 }
 
 
@@ -48,10 +44,14 @@ header h1 {
 
 }
 
-
-
-.primaryNav li.active {
-  border-bottom-color: white;
+.navigation li.active {
+  text-decoration: underline: #000000;
   border-bottom-style: solid;
   border-bottom-width: 5px;
+}
+
+.navigation li.hover {
+  background-color: #000000;
+  color: #43F1FF;
+
 }
