@@ -27,8 +27,6 @@ header{
   color: #000000;
 }
 
-
-
 @font-face {
   font-family: 'Richardson Brand Accelerator';
   src: url('Windows\Fonts\Richardson Brand Accelerator Regular.otf');
@@ -44,14 +42,22 @@ header h1 {
 
 }
 
-.navigation li.active {
+h2, h3 {
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0;
+  font-family: Richardson Brand Accelerator, Georgia, serif;
+}
+
+.navigation a:active {
   text-decoration: underline: #000000;
   border-bottom-style: solid;
   border-bottom-width: 5px;
+
 }
 
-.navigation li.hover {
-  background-color: #000000;
+.navigation a:hover {
   color: #43F1FF;
+  background-color: #000000;
 
 }
