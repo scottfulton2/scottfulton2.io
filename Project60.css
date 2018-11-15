@@ -8,30 +8,33 @@ nav ul {
 nav li {
     float: left;
 }
+
 nav li a {
     display: block;
     text-align: center;
     padding: 5px 16px;
     text-decoration: none;
+    font-family: monospace;
 }
+
 header{
   background-color: #068994;
+  position: fixed;
+  width: 1000px;
 }
+
 .navigation{
   background-color: #43F1FF;
 }
+
 .navigation a {
   color: #000000;
 }
-
-
 
 @font-face {
   font-family: 'Richardson Brand Accelerator';
   src: url('Windows\Fonts\Richardson Brand Accelerator Regular.otf');
 }
-
-
 
 header h1 {
   color: #FFFF45;
@@ -41,8 +44,6 @@ header h1 {
   font-family: Richardson Brand Accelerator, Georgia, serif;
 }
 
-
-
 h2, h3 {
   text-transform: uppercase;
   padding: 10px;
@@ -50,14 +51,47 @@ h2, h3 {
   font-family: Richardson Brand Accelerator, Georgia, serif;
 }
 
-
-
 .navigation a:active {
   text-decoration: underline: #000000;
   border-bottom-style: solid;
   border-bottom-width: 5px;
 }
+
 .navigation a:hover {
   color: #43F1FF;
   background-color: #000000;
+}
+
+p1, p2, p3, p4 {
+  font-family: monospace;
+}
+
+footer {
+  background-color: #068994;
+  color: #000000;
+}
+
+.intro-container {
+  background-color: #FFFFFF ;
+  display:flex;
+}
+
+.Projects-card {
+  background-color: #FFFFFF ;
+  display:flex;
+}
+
+.CV-card {
+  background-color: #FFFFFF ;
+  display:flex;
+}
+
+.Contact-Details-card {
+  background-color: #FFFFFF ;
+  display:flex;
+}
+
+footer i {
+  width: 100px;
+  height: 100px;
 }
