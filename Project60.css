@@ -72,26 +72,47 @@ footer {
 }
 
 .intro-container {
-  background-color: #FFFFFF ;
-  display:flex;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+}
+
+.card-alignment {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .Projects-card {
-  background-color: #FFFFFF ;
+  background-color: #FFFFFF;
   display:flex;
+  flex-direction: column;
+  width: 240px;
+  height: 350px;
+  padding: 10px;
 }
 
 .CV-card {
-  background-color: #FFFFFF ;
+  background-color: #FFFFFF;
   display:flex;
+  flex-direction: column;
+  width: 240px;
+  height: 350px;
+  padding: 10px;
 }
 
 .Contact-Details-card {
-  background-color: #FFFFFF ;
+  background-color: #FFFFFF;
   display:flex;
+  flex-direction: column;
+  width: 240px;
+  height: 350px;
+  padding: 10px;
 }
 
-footer i {
+
+
+/*. {
   width: 100px;
   height: 100px;
-}
+  color: #FFFFFF
+}*/
