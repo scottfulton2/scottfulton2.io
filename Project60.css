@@ -51,10 +51,34 @@ h2, h3 {
   font-family: Richardson Brand Accelerator, Georgia, serif;
 }
 
-.navigation a:active {
-  text-decoration: underline: #000000;
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
+.Projects-card a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.Projects-card a:hover {
+  color: #FFFF45;
+  text-decoration: underline;
+}
+
+.CV-card a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.CV-card a:hover {
+  color: #FFFF45;
+  text-decoration: underline;
+}
+
+.Contact-Details-card a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.Contact-Details-card a:hover {
+  color: #FFFF45;
+  text-decoration: underline;
 }
 
 .navigation a:hover {
@@ -89,6 +113,7 @@ footer {
   width: 240px;
   height: 350px;
   padding: 10px;
+  text-decoration: none;
 }
 
 .CV-card {
@@ -98,6 +123,7 @@ footer {
   width: 240px;
   height: 350px;
   padding: 10px;
+  text-decoration: none;
 }
 
 .Contact-Details-card {
@@ -107,12 +133,5 @@ footer {
   width: 240px;
   height: 350px;
   padding: 10px;
+  text-decoration: none;
 }
-
-
-
-/*. {
-  width: 100px;
-  height: 100px;
-  color: #FFFFFF
-}*/
