@@ -17,13 +17,13 @@ nav li a {
     font-family: monospace;
 }
 
-header{
+header {
   background-color: #068994;
   position: fixed;
   width: 1000px;
 }
 
-.navigation{
+.navigation {
   background-color: #43F1FF;
 }
 
@@ -86,18 +86,19 @@ h2, h3 {
   background-color: #000000;
 }
 
-p1, p2, p3, p4 {
+p1, p2, p3, p4, li, td {
   font-family: monospace;
+}
+
+.white-container {
+  background-color: #FFFFFF;
+  padding: 10px;
+
 }
 
 footer {
   background-color: #068994;
   color: #000000;
-}
-
-.intro-container {
-  background-color: #FFFFFF;
-  padding: 10px 10px;
 }
 
 .card-alignment {
@@ -134,4 +135,24 @@ footer {
   height: 350px;
   padding: 10px;
   text-decoration: none;
+}
+
+.top-row {
+  background-color: #068994;
+  color: #FFFF45;
+}
+
+.top-row, td {
+  font-weight:200;
+}
+
+.odd-number-row {
+  background-color: #43F1FF;
+}
+
+.profile-achievements-container {
+  display:flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
 }
