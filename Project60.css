@@ -86,14 +86,17 @@ h2, h3 {
   background-color: #000000;
 }
 
-p1, p2, p3, p4, li, td {
+p1, p2, p3, p4, p5, p6, p7, li, td {
   font-family: monospace;
 }
 
 .white-container {
   background-color: #FFFFFF;
-  padding: 10px;
-
+  font-family: monospace;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -150,9 +153,50 @@ footer {
   background-color: #43F1FF;
 }
 
+.bitAtTheTop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 470px;
+}
+
 .profile-achievements-container {
+background-color: #FFFFFF;
   display:flex;
   flex-direction: column;
-  width: 500px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px
 }
+
+.all-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projects-page-container {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 10px 10px;
+}
+
+.column-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+span {
+  color: #000000;
+}
+
+/*i a:hover {
+  color: #FFFFFF
+}*/
