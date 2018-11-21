@@ -188,8 +188,8 @@ background-color: #FFFFFF;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: auto;
+  width: 400px;
+  height: 200px;
   padding: 10px 10px;
 }
 
