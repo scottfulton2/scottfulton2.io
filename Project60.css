@@ -101,7 +101,13 @@ p1, p2, p3, p4, p5, p6, p7, li, td {
 
 footer {
   background-color: #068994;
-  color: #000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .card-alignment {
@@ -197,6 +203,6 @@ span {
   color: #000000;
 }
 
-/*i a:hover {
-  color: #FFFFFF
-}*/
+span:hover {
+  color: #FFFFFF;
+}
